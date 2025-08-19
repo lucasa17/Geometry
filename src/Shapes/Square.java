@@ -18,7 +18,7 @@ public class Square {
         this.sideSize = sideSize;
     }
     
-	void Draw(){
+	void draw(){
         int size = Math.round(this.sideSize);
 		for(int i = 0; i < size; i++){
 			for(int j = 0; j < size; j++){
