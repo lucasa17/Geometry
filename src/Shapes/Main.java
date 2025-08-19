@@ -3,10 +3,10 @@ package Shapes;
 import java.util.*;
 
 public class Main {
+	
+	static Scanner scanner = new Scanner(System.in);
 
-	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		
+	static void menu(){
 		System.out.println("Menu:");
 		System.out.println("1 - Quadrado\n2 - Retângulo\n3 - Triângulo\n4 - Círculo\n");
 		System.out.print("Escolha uma opção: ");
@@ -71,6 +71,11 @@ public class Main {
 		        System.out.println("Valor inválido");
 			break;
 		}
+	}
+	
+	public static void main(String[] args) {
+		
+		menu();
 		
 	}
 }
