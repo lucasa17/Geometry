@@ -23,7 +23,7 @@ public class Main {
 		        System.out.println("Área do quadrado: " + square1.getArea());
 
 		        System.out.println("\nDesenho do quadrado:");
-		        square1.Draw();
+		        square1.draw();
 		    break;
 			case 2:
 				Rectangle rectangle1 = new Rectangle();
@@ -38,7 +38,7 @@ public class Main {
 		        System.out.println("Área do Retângulo: " + rectangle1.getArea());
 
 		        System.out.println("\nDesenho do Retângulo:");
-		        rectangle1.Draw();
+		        rectangle1.draw();
 			break;
 			case 3:
 				Triangle triangle1 = new Triangle();
@@ -53,7 +53,7 @@ public class Main {
 		        System.out.println("Área do triângulo: " + triangle1.getArea());
 
 		        System.out.println("\nDesenho do Triângulo:");
-		        triangle1.Draw();
+		        triangle1.draw();
 			break;
 			case 4:
 				Circle circle1 = new Circle();
@@ -65,7 +65,7 @@ public class Main {
 		        System.out.println("Área do círculo: " + circle1.getArea());
 		        
 		        System.out.println("\nDesenho do Círculo:");
-		        circle1.Draw();
+		        circle1.draw();
 			break;
 			default:
 		        System.out.println("Valor inválido");
