@@ -18,7 +18,7 @@ public class Circle {
         this.radiusSize = radiusSize;
     }
     
-    void Draw(){
+    void draw(){
         int radius = Math.round(this.radiusSize);
         for (int y = -radius; y <= radius; y++) {
             for (int x = -radius; x <= radius; x++) {
