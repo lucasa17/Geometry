@@ -26,7 +26,7 @@ public class Rectangle {
         this.heightSize = heightSizeRectangle;
     }
 
-    void Draw(){
+    void draw(){
     	int base = Math.round(this.baseSize);
     	int height = Math.round(this.heightSize);		
     	for(int i = 0; i < baseSize; i++){
